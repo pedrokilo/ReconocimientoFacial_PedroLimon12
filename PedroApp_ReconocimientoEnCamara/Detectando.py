@@ -2,7 +2,7 @@ import cv2
 
 cap = cv2.VideoCapture(0, cv2.CAP_DSHOW)
 
-JugueteClassif = cv2.CascadeClassifier('cascade.xml')
+JugueteClassif = cv2.CascadeClassifier('pajarito.xml')
 
 while True:
 
